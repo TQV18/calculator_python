@@ -3,7 +3,7 @@
 Ứng dụng máy tính đơn giản được viết bằng **Python** và thư viện **CustomTkinter**.
 
 **Author:** _Trần Quang Vĩ_  
- _11A4 Bình Phú High School_
+ _11A4 Binh Phu High School_
 
 ---
 
