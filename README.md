@@ -33,7 +33,7 @@ v1.0 (04/01/2026 00:49)
 - Basic calculator with percentage support  
 
 v2.0  
-- Updating  
+- Updating (history + ans)
 
 v3.0  
 - Updating
