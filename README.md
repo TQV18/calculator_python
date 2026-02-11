@@ -33,7 +33,7 @@ v1.0 (04/01/2026 00:49)
 - Basic calculator with percentage support  
 
 v2.0  
-- Updating (history + ans, convert the code in OOP version instead of nornal)
+- Updating (adding history)
 
 v3.0  
-- Updating
+- Updating (OOP ver)
