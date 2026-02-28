@@ -101,7 +101,8 @@ class LOGIC:
                         temp = float(temp[:-1])/100
                         if float(temp) == int(temp):
                             temp = int(temp)
-                    ans += str(temp)
+                    
+                    ans += str(int(temp))
                     temp = ""
                     
                     
@@ -113,7 +114,7 @@ class LOGIC:
                 temp = float(temp[:-1])/100
                 if float(temp) == int(temp):
                     temp = int(temp)
-            ans += str(temp)
+            ans += str(int(temp))
             temp = ""
         print(ans)
         return ans 
@@ -162,4 +163,5 @@ class calc_engine:
 # ------------------------#
 calcUI = GUI()
 calcUI.run() #activate the GUI
+
 
