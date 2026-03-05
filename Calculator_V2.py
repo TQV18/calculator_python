@@ -101,8 +101,10 @@ class LOGIC:
                         temp = float(temp[:-1])/100
                         if float(temp) == int(temp):
                             temp = int(temp)
-                    
-                    ans += str(int(temp))
+                    temp = str(temp)
+                    while (len(temp)>1 and temp[0] == '0' and temp[1]!='.'):
+                        temp = temp[1::]
+                    ans += str(temp)
                     temp = ""
                     
                     
@@ -114,7 +116,10 @@ class LOGIC:
                 temp = float(temp[:-1])/100
                 if float(temp) == int(temp):
                     temp = int(temp)
-            ans += str(int(temp))
+            temp = str(temp)
+            while (len(temp)>1 and temp[0] == '0' and temp[1] != '.'):
+                temp = temp[1::]
+            ans += str(temp)
             temp = ""
         print(ans)
         return ans 
@@ -163,5 +168,4 @@ class calc_engine:
 # ------------------------#
 calcUI = GUI()
 calcUI.run() #activate the GUI
-
 
